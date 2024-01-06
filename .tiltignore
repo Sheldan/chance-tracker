@@ -1,0 +1,3 @@
+*.tgz
+tilt/drr-dev/tmpcharts/
+tilt/drr-dev/charts/*.tgz

@@ -1,0 +1,74 @@
+.itemDisplay {
+    width: 36px;
+    height: 36px;
+}
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.imageCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageBottom {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.numberDisplay {
+    font-size: x-small;
+}
+
+.changedDisplayNegative {
+    color: #9C1A1C;
+}
+
+.changedDisplayPositive {
+    color: #3A7734;
+}
+
+.spanNewLine {
+    display: block;
+}
+
+.junk {
+    border: 3px solid #AAAAAA;
+}
+
+.basic {
+    border: 3px solid #0000;
+}
+
+.fine {
+    border: 3px solid #62A4DA;
+}
+
+.masterwork {
+    border: 3px solid #1a9306;
+}
+
+.rare {
+    border: 3px solid #fcd00b;
+}
+
+.exotic {
+    border: 3px solid #ffa405;
+}
+
+.legendary {
+    border: 3px solid #4C139D;
+}
+
+.ascended {
+    border: 3px solid #fb3e8d;
+}

@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  drr-backend:
+    build:
+      context: drr-backend/packaging/src/main/docker/drr
+    image: ${REGISTRY_PREFIX}drr-backend:${VERSION:-latest}
+  drr-frontend:
+    build:
+      context: drr-frontend/docker
+    image: ${REGISTRY_PREFIX}drr-frontend:${VERSION:-latest}

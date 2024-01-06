@@ -18,7 +18,17 @@
 *.zip
 *.tar.gz
 *.rar
+.idea
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/drr-frontend/resources/static/
+/drr-frontend/resources/favicon.ico
+/drr-frontend/resources/asset-manifest.json
+/drr-frontend/resources/manifest.json
+/drr-frontend/resources/robots.txt
+/drr-frontend/resources/logo512.png
+/drr-frontend/resources/index.html
+/drr-frontend/resources/logo192.png
+/tilt/drr-dev/Chart.lock

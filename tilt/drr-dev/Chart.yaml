@@ -1,0 +1,8 @@
+apiVersion: v2
+description: drr dev chart
+name: drr-dev
+version: 1.0.0
+dependencies:
+  - name: drr
+    repository: file://../../ci/drr
+    version: ">= 0.0.1"
